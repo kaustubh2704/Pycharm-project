@@ -89,6 +89,9 @@ st.subheader("Either Open Camera And Detect Faces Or Upload An Image And Detect 
 
 # Button to start face detection in live camera stream
 if st.button("Open Camera"):
+
+
+    
     detect_faces()
 
 # File uploader for detecting faces in an uploaded image
