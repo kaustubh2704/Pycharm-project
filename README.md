@@ -1,4 +1,5 @@
 Title
+
 Face Detection Using OpenCV and Streamlit
 
 🎯 2. Objective
