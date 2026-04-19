@@ -1,35 +1,68 @@
-😊 Face Detection App
- #Project Overview
+Title
+Face Detection Using OpenCV and Streamlit
 
-This project is a simple Face Detection application built using Python, OpenCV, and Streamlit.
-It allows users to upload an image and detects human faces by drawing bounding boxes around them.
+🎯 2. Objective
+The objective of this project is to build a system that can detect human faces in real-time using a webcam or from uploaded images using computer vision techniques.
 
-* Features
-Upload an image (JPG, PNG, JPEG)
-Detect faces using OpenCV Haarcascade
-Draw rectangles around detected faces
-Display total number of faces detected
-🛠️ Technologies Used
+🧠 3. Problem Statement
+In many applications like security systems, attendance systems, and social media filters, detecting human faces is an important task.
+This project aims to automatically detect faces using image processing.
+
+🛠️ 4. Technologies Used
 Python
-OpenCV
+OpenCV (Computer Vision)
 NumPy
-Streamlit
-Pillow
-▶️ How to Run the Project
-Step 1: Install dependencies
-pip install -r requirements.txt
-Step 2: Run the app
-streamlit run app.py
-#Output#
-Displays uploaded image with detected faces
-Shows total number of faces detected
-📁 Project Structure
-Face-Detection-Project/
+Streamlit (Web UI)
+PIL (Image Processing)
+⚙️ 5. Methodology
 
-face.py
+1: Image Input
+Capture image from webcam OR upload image
+
+2: Preprocessing
+Convert image into grayscale using OpenCV
+
+3: Face Detection
+Use Haar Cascade Classifier (pre-trained model)
+Detect faces using detectMultiScale()
+
+4: Output
+Draw rectangles around detected faces
+Display result using Streamlit or OpenCV window
+
+6. Working
+User opens the application
+Chooses either:
+Open Camera
+Upload Image
+System processes the image
+Faces are detected and highlighted
+Output is displayed on screen
+
+7. Features
+Real-time face detection using webcam
+Detect faces from uploaded images
+Simple and interactive UI
+Fast and efficient processing
+
+8. Project Structure
+Face-Detection-Project/
 face.py
 requirements.txt
 README.md
 
-👨‍💻 Author
-Kaustubh Sachin Manjarekar
+9.Limitations
+Works best with frontal faces
+Accuracy may decrease in low lighting
+Cannot recognize person identity (only detection)
+
+10. Future Scope
+Add face recognition (identify person)
+Improve accuracy using deep learning (CNN)
+Deploy on web for public use
+
+11. Conclusion
+This project successfully detects human faces using OpenCV. It demonstrates how computer vision can be used in real-time applications with a simple and efficient approach.
+
+12. Author
+Kaustubh Manjarekar
