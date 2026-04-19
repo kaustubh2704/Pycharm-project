@@ -26,7 +26,7 @@ Shows total number of faces detected
 📁 Project Structure
 Face-Detection-Project/
 
-app.py
+face.py
 face.py
 requirements.txt
 README.md
