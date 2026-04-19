@@ -65,5 +65,9 @@ Deploy on web for public use
 11. Conclusion
 This project successfully detects human faces using OpenCV. It demonstrates how computer vision can be used in real-time applications with a simple and efficient approach.
 
-12. Author
+Output:
+<img width="1103" height="688" alt="Screenshot 2026-04-19 211256 - Copy" src="https://github.com/user-attachments/assets/4c7d9bb4-0a75-4f46-a579-459e7e36fc45" />
+
+
+13. Author
 Kaustubh Manjarekar
